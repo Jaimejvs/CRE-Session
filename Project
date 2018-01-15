@@ -1,1 +1,14 @@
-hola gente
+fil_hand = open('alghistorical.txt', 'r')
+
+def open_account:
+    if line[0] == 'O':
+
+def withdraw_account:
+    if line[0] == 'W':
+
+def deposit_account:
+    if line[0] == 'D':
+
+
+def special_bonus:
+    if line[0] == 'B':
