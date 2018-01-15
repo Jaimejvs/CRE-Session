@@ -1,5 +1,12 @@
-fil_hand = open('alghistorical.txt', 'r')
+fhand = open('alghistorical.txt', 'r')
+bankprofits=0 # the variable for total bank gross earnings
+savingsaccounts=[] # the list for all of the savings accounts
+act1= 0000000000 # integer that holds all of the 0's in accnt number and will be increased by 1 every time account is opened
 
+for line in fhandle:
+    line = line.rstrip()
+    linedata =line.split()
+    if line.startswith('O'):
 def open_account:
     if line[0] == 'O':
 
